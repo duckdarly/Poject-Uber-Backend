@@ -1,0 +1,13 @@
+package com.Project_UberBackend;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ProjectUberBackendApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProjectUberBackendApplication.class, args);
+	}
+
+}
