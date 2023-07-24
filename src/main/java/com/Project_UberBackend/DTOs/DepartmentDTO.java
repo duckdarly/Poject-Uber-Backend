@@ -1,5 +1,9 @@
 package com.Project_UberBackend.DTOs;
 
-public class DepartmentDTO {
+import lombok.Data;
 
+@Data
+public class DepartmentDTO {
+	private Long department_id;
+	private String description;
 }
